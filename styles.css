@@ -43,6 +43,8 @@ nav ul li a:hover {
 }
 
 /* Secciones */
+
+
 .seccion {
     position: fixed;
     top: 0;
@@ -64,6 +66,29 @@ nav ul li a:hover {
     opacity: 1;
     transform: translateY(0);
     z-index: 10;
+}
+
+.seccion h2 {
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        #inicio video {
+            border: 5px solid #000;
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+        }
+        .metodos-pago {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .metodos-pago img, .metodos-pago span {
+            width: 50px;
+            height: auto;
 }
 
 /* Sección Inicio con Video */
