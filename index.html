@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -22,10 +23,7 @@
         <section id="inicio" class="seccion activa">
             <h2>INICIO</h2>
             <div class="video-container">
-                <video autoplay muted loop>
-                    <source src="video-presentacion.mp4" type="video/mp4">
-                    Tu navegador no soporta videos.
-                </video>
+                <video controls><source src="video1.mp4" type="video/mp4"></video>
             </div>
         </section>
 
@@ -48,20 +46,25 @@
 
         <section id="contacto" class="seccion">
             <h2>CONTACTO</h2>
-            <div class="contacto-contenido">
-                <p>Puedes contactarme a través de los siguientes medios:</p>
-                <div class="iconos-flotantes">
-                    <a href="https://wa.me/tu-numero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
-                    <a href="https://instagram.com/tu-usuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-                </div>
-                <h3>MÉTODOS DE PAGO</h3>
-                <div class="metodos-pago">
-                    <span>&#36;</span>
-                    <img src="visa.png" alt="Visa">
-                    <img src="mercadopago.png" alt="MercadoPago">
-                </div>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            
+            <div class="iconos-contacto">
+                <a href="https://wa.me/tu-numero" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/tu-usuario" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        
+            <h3>Métodos de Pago</h3>
+            <div class="metodos-pago">
+                <i class="fas fa-dollar-sign"></i>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fas fa-money-bill-wave"></i> 
             </div>
         </section>
+        
     </main>
     
     <script defer src="script.js"></script>
