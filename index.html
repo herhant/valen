@@ -10,10 +10,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#" data-target="inicio">Inicio</a></li>
-                <li><a href="#" data-target="servicios">Servicios</a></li>
-                <li><a href="#" data-target="portfolio">Portfolio</a></li>
-                <li><a href="#" data-target="contacto">Contacto</a></li>
+                <li><a href="#" data-target="inicio">INICIO</a></li>
+                <li><a href="#" data-target="servicios">SERVICIOS</a></li>
+                <li><a href="#" data-target="portfolio">PORTFOLIO</a></li>
+                <li><a href="#" data-target="contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -21,10 +21,12 @@
     <main>
         <section id="inicio" class="seccion activa">
             <h2>INICIO</h2>
-            <video autoplay muted loop>
-                <source src="video-presentacion.mp4" type="video/mp4">
-                Tu navegador no soporta videos.
-            </video>
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="video-presentacion.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+            </div>
         </section>
 
         <section id="servicios" class="seccion">
@@ -46,19 +48,22 @@
 
         <section id="contacto" class="seccion">
             <h2>CONTACTO</h2>
-            <p>Puedes contactarme a través de los siguientes medios:</p>
-            <div class="iconos-flotantes">
-                <a href="https://wa.me/tu-numero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
-                <a href="https://instagram.com/tu-usuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-            </div>
-            <h3>Métodos de Pago</h3>
-            <div class="metodos-pago">
-                <span>&#36;</span> <!-- Símbolo de peso -->
-                <img src="visa.png" alt="Visa">
-                <img src="mercadopago.png" alt="MercadoPago">
+            <div class="contacto-contenido">
+                <p>Puedes contactarme a través de los siguientes medios:</p>
+                <div class="iconos-flotantes">
+                    <a href="https://wa.me/tu-numero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://instagram.com/tu-usuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+                <h3>MÉTODOS DE PAGO</h3>
+                <div class="metodos-pago">
+                    <span>&#36;</span>
+                    <img src="visa.png" alt="Visa">
+                    <img src="mercadopago.png" alt="MercadoPago">
+                </div>
             </div>
         </section>
     </main>
-<script defer src="script.js"></script>
+    
+    <script defer src="script.js"></script>
 </body>
 </html>
