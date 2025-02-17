@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="inicio">Inicio</a></li>
+                <li><a href="#" data-target="sobre-mi">Sobre Mí</a></li>
+                <li><a href="#" data-target="portfolio">Portfolio</a></li>
+                <li><a href="#" data-target="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion activa">
+            <video autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            <div class="overlay">
+                <h1>Bienvenido a mi Portfolio</h1>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="seccion">
+            <h2>Sobre Mí</h2>
+            <p>Información sobre ti...</p>
+        </section>
+
+        <section id="portfolio" class="seccion">
+            <h2>Mis Trabajos</h2>
+            <p>Proyectos destacados...</p>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <h2>Contacto</h2>
+            <p>Formulario de contacto...</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
