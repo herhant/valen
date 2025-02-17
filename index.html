@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -21,6 +20,7 @@
 
     <main>
         <section id="inicio" class="seccion activa">
+            <h2>INICIO</h2>
             <video autoplay muted loop>
                 <source src="video-presentacion.mp4" type="video/mp4">
                 Tu navegador no soporta videos.
@@ -28,12 +28,12 @@
         </section>
 
         <section id="servicios" class="seccion">
-            <h2>Servicios</h2>
+            <h2>SERVICIOS</h2>
             <p>Aquí van los servicios ofrecidos...</p>
         </section>
 
         <section id="portfolio" class="seccion">
-            <h2>Mis Trabajos</h2>
+            <h2>MIS TRABAJOS</h2>
             <div class="galeria-videos">
                 <video controls><source src="video1.mp4" type="video/mp4"></video>
                 <video controls><source src="video2.mp4" type="video/mp4"></video>
@@ -45,8 +45,13 @@
         </section>
 
         <section id="contacto" class="seccion">
-            <h2>Contacto</h2>
-            <p>Opciones de contacto y pagos:</p>
+            <h2>CONTACTO</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <div class="iconos-flotantes">
+                <a href="https://wa.me/tu-numero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://instagram.com/tu-usuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+            <h3>Métodos de Pago</h3>
             <div class="metodos-pago">
                 <span>&#36;</span> <!-- Símbolo de peso -->
                 <img src="visa.png" alt="Visa">
@@ -54,10 +59,6 @@
             </div>
         </section>
     </main>
-
-    <div class="iconos-flotantes">
-        <a href="https://wa.me/tu-numero" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
-        <a href="https://instagram.com/tu-usuario" target="_blank"><img src="instagram.png" alt="Instagram"></a>
-    </div>
+<script defer src="script.js"></script>
 </body>
 </html>
